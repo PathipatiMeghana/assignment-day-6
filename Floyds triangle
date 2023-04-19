@@ -1,0 +1,26 @@
+#include<stdio.h>  
+  
+void main()  
+{  
+    int n, i = 1, j = 1, k;  
+  
+    printf("Number of rows: ");  
+    scanf("%d", &n);  
+  
+    printf("\n");  
+  
+    while(j <= n)  
+    {  
+        k = 1;  
+        while(k <= j)  
+        {  
+            printf("%d  ", i);  
+            i++;  
+            k++;  
+        }  
+        j++;  
+        printf("\n");  
+    }  
+  
+    return 0;  
+}  
